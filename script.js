@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedTopic = '';
     let totalQuestionsInQuiz = 0;
     let answerVerified = false;
-    const DEFAULT_NUM_QUESTIONS = 20; // Default number of questions if not specified
+    const DEFAULT_NUM_QUESTIONS = 100; // Default number of questions if not specified
     const TIME_PER_QUESTION = 60; // Seconds per question
 
     // --- Data Check ---
